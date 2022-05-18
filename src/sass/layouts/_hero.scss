@@ -1,0 +1,118 @@
+.hero{
+    background-image: url('../images/hero/background.jpg');
+    padding-bottom: 97px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 155px;
+}
+.navigation__logo{
+    margin-right: 60px;
+    padding: 30px 0;
+}
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+}
+.navigation-list{
+    display: flex;
+}
+.navigation-list__item{
+    padding: 32px 0; 
+}
+.navigation-list__item:not(:last-child){
+    margin-right: 40px;
+}
+.navigation-list__link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #424551;
+    padding: 32px 0;
+    transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigation-list__link:hover,
+.navigation-list__link:focus{
+    color: $main-hover-color;
+    transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-btn{
+    margin-right: 36px;
+}
+.navigation-list-right{
+    display: flex;
+
+}
+.register-link{
+    display: flex;
+    align-items: center; 
+    transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.register-link:hover,
+.register-link:hover{
+    color: $main-hover-color;
+    transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.register-link__svg{
+    margin-right: 10px;
+    fill: #424551;
+    transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.register-link:hover .register-link__svg,
+.register-link:hover .register-link__svg{
+    fill: $main-hover-color;
+    transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-button{
+    margin-bottom: 40px;
+}
+.header__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 1.3;
+
+    width: 496px;
+    color: $main-color;
+    margin-bottom: 60px;
+}
+.header__btn{
+    display: flex;
+}
+.header__btn-outline:not(:last-child){
+    margin-right: 20px;
+}
+
+.header-statistics-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-statistics-list__item:not(:last-child){
+    margin-right: 100px;
+}
+.header-statistics-list__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    display: flex;
+    align-items: center;
+    color: $main-color;
+}
+.header-statistics-list__number{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.30;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $main-color;
+    margin-right: 12px;
+
+}
